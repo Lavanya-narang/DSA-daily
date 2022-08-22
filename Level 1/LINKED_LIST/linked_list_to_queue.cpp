@@ -206,7 +206,7 @@ public:
     // write your code here
     if(size1()==0)
     {
-        cout<<"Queue underflow";
+        cout<<"Queue underflow"<<endl;
         return -1;
     }
     else
@@ -218,7 +218,7 @@ public:
     // write your code here
     if(size1()==0)
     {
-        cout<<"Queue underflow";
+        cout<<"Queue underflow"<<endl;
         return -1;
     }
     else
