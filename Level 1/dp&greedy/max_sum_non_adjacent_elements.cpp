@@ -22,4 +22,3 @@ int main() {
     int ans = max(inc, exc);
     cout << ans;
 }
-Footer
