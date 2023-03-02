@@ -25,7 +25,7 @@ public:
                     string totlen=to_string(total);
                     for(auto i:totlen)
                     {
-                        ans.push_back((char)i);
+                        ans.push_back((char)i);//type identifier char
                     }
                     total=1;
                 }
