@@ -7,7 +7,7 @@ public:
         {
             return;
         }
-        int left=0,right=0,temp;
+        int left=0,right=0;
         while(right<n)
         {
             if(nums[right]==0)
@@ -16,9 +16,7 @@ public:
             }
             else
             {
-                swap(nums[left],nums[right]);
-                left++;
-                right++;
+                swap(nums[left++],nums[right++]);
             }
         }
     }
