@@ -4,12 +4,12 @@ public:
     {
         int n=nums.size();
         //tc o(n) sc o(2n)
-        // vector<int>ans(2*n,0);
-        // for(int i=0,j=n;i<n,j<2*n;i++,j++)
-        // {
-        //     ans[i]=nums[i];
-        //     ans[j]=nums[i];
-        // }
+        vector<int>ans(2*n,0);
+         for(int i=0;i<n;i++)
+         {
+             ans[i]=ans[i+n]=nums[i];
+         }
+         return ans;
         //tc o(n) sc o(1)
         for(int i=0;i<n;i++)
         {
