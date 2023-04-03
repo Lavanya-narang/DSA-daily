@@ -1,7 +1,7 @@
 class Solution {
 public:
     int numRescueBoats(vector<int>& people, int limit) 
-    {//TC:O(nlog(n));   SC:O(1) 
+    {//TC:O(nlog(n));   SC:O(log(n) 
         int ans=0;
         int low=0,high=people.size()-1;
         sort(people.begin(),people.end());
